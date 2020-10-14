@@ -5,7 +5,7 @@ Simple commands with ansible
 It is necessary set hosts file as inventory in /etc/ansible/ansible.cfg.
 
 ## Security relationship
-Ansible needs create a security relationship with target host, therefore it need to copy a ssh public key.
+Ansible needs create a security relationship with target host, therefore it needs to copy a ssh public key.
 
 Ex: ssh-copy -i ~/.ssh/ira_rsa.pub user@server_host -p port.
 
