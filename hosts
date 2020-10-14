@@ -82,7 +82,7 @@ mni-1g ansible_host=10.0.16.65 ansible_port=12235 pje_artefato=pje.war pje_build
 mni-cst-1g ansible_host=10.0.16.107 ansible_port=12235 pje_artefato=pje.war  pje_build=pje-build-homolog-mni-consulta
 quartz-1g ansible_host=10.0.16.66 ansible_port=12235 pje_artefato=pje.war  pje_build=pje-build-homolog-quartz
 user-1g ansible_host=10.0.16.69 ansible_port=12235 pje_artefato=pje.war pje_build=pje-build-homolog-user
-mig-1g ansible_host=10.0.16.26 ansible_port=12235 pje_artefato=pje.war pje_build=pje-build-homolog-mig
+#mig-1g ansible_host=10.0.16.26 ansible_port=12235 pje_artefato=pje.war pje_build=pje-build-homolog-mig
 
 [nos2g]
 mni-2g ansible_host=10.0.16.73 ansible_port=12235 pje_artefato=pje2.war pje_build=pje-build-homolog-mni
