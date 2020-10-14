@@ -13,4 +13,4 @@ After it is possible test a connection with ping module.
 
 Ex: ansible <name_group> -m ping. 
 
-If it returns green answer it dit work.
+If it returns green answer it did work.
