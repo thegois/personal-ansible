@@ -21,7 +21,7 @@ dpf02-dist-1g ansible_host=10.0.16.102 ansible_port=12235 ansible_user=tjmt
 dpf01-dist-2g ansible_host=10.0.16.105 ansible_port=12235 ansible_user=tjmt
 dpf02-dist-2g ansible_host=10.0.16.118 ansible_port=12235 ansible_user=tjmt
 
-mig-1g ansible_host=10.0.16.26 ansible_port=12235 ansible_user=tjmt
+#mig-1g ansible_host=10.0.16.26 ansible_port=12235 ansible_user=tjmt
 analise-1g ansible_host=10.0.255.124 ansible_port=12235 ansible_user=tjmt
 analise-2g ansible_host=10.0.255.79 ansible_port=12235 ansible_user=tjmt
 fluxo-1g ansible_host=10.0.255.126 ansible_port=12235 ansible_user=tjmt
