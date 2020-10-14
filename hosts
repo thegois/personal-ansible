@@ -1,46 +1,46 @@
-user-1g ansible_host=10.0.16.69 ansible_port=12235
-user-2g ansible_host=10.0.16.91 ansible_port=12235
-mni-1g ansible_host=10.0.16.65 ansible_port=12235
-mni-2g ansible_host=10.0.16.73 ansible_port=12235
-mni-cst-1g ansible_host=10.0.16.107 ansible_port=12235
-mni-cst-2g ansible_host=10.0.16.33 ansible_port=12235
-quartz-1g ansible_host=10.0.16.66 ansible_port=12235
-quartz-2g ansible_host=10.0.16.201 ansible_port=12235
-dpf-dev-1g ansible_host=10.0.16.12 ansible_port=12235
-dpf-dev-2g ansible_host=10.0.16.15 ansible_port=12235
+user-1g ansible_host=10.0.16.69 ansible_port=12235 ansible_user=tjmt
+user-2g ansible_host=10.0.16.91 ansible_port=12235 ansible_user=tjmt
+mni-1g ansible_host=10.0.16.65 ansible_port=12235 ansible_user=tjmt
+mni-2g ansible_host=10.0.16.73 ansible_port=12235 ansible_user=tjmt
+mni-cst-1g ansible_host=10.0.16.107 ansible_port=12235 ansible_user=tjmt
+mni-cst-2g ansible_host=10.0.16.33 ansible_port=12235 ansible_user=tjmt
+quartz-1g ansible_host=10.0.16.66 ansible_port=12235 ansible_user=tjmt
+quartz-2g ansible_host=10.0.16.201 ansible_port=12235 ansible_user=tjmt
+dpf-dev-1g ansible_host=10.0.16.12 ansible_port=12235 ansible_user=tjmt
+dpf-dev-2g ansible_host=10.0.16.15 ansible_port=12235 ansible_user=tjmt
 
-user-cnj-1g ansible_host=10.0.16.194 ansible_port=12235
-user-cnj-2g ansible_host=10.0.16.195 ansible_port=12235
+user-cnj-1g ansible_host=10.0.16.194 ansible_port=12235 ansible_user=tjmt
+user-cnj-2g ansible_host=10.0.16.195 ansible_port=12235 ansible_user=tjmt
 
 #PJE DPF PARA SENDER
-dpf-1g ansible_host=10.0.17.98 ansible_port=12235
-dpf-2g ansible_host=10.0.17.60 ansible_port=12235
+dpf-1g ansible_host=10.0.17.98 ansible_port=12235 ansible_user=tjmt
+dpf-2g ansible_host=10.0.17.60 ansible_port=12235 ansible_user=tjmt
 #PJE DPF PARA DISTRIBUIÇÃO
-dpf01-dist-1g ansible_host=10.0.16.99 ansible_port=12235
-dpf02-dist-1g ansible_host=10.0.16.102 ansible_port=12235
-dpf01-dist-2g ansible_host=10.0.16.105 ansible_port=12235
-dpf02-dist-2g ansible_host=10.0.16.118 ansible_port=12235
+dpf01-dist-1g ansible_host=10.0.16.99 ansible_port=12235 ansible_user=tjmt
+dpf02-dist-1g ansible_host=10.0.16.102 ansible_port=12235 ansible_user=tjmt
+dpf01-dist-2g ansible_host=10.0.16.105 ansible_port=12235 ansible_user=tjmt
+dpf02-dist-2g ansible_host=10.0.16.118 ansible_port=12235 ansible_user=tjmt
 
-mig-1g ansible_host=10.0.16.26 ansible_port=12235
-analise-1g ansible_host=10.0.255.124 ansible_port=12235
-analise-2g ansible_host=10.0.255.79 ansible_port=12235
-fluxo-1g ansible_host=10.0.255.126 ansible_port=12235
-fluxo-2g  ansible_host=10.0.255.81 ansible_port=12235
-fluxo-hom-1g ansible_host=10.0.255.44 ansible_port=12235
-fluxo-hom-2g ansible_host=10.0.255.45 ansible_port=12235
-treinamento-1g ansible_host=10.0.16.95 ansible_port=12235
-treinamento-2g ansible_host=10.0.16.96 ansible_port=12235
+mig-1g ansible_host=10.0.16.26 ansible_port=12235 ansible_user=tjmt
+analise-1g ansible_host=10.0.255.124 ansible_port=12235 ansible_user=tjmt
+analise-2g ansible_host=10.0.255.79 ansible_port=12235 ansible_user=tjmt
+fluxo-1g ansible_host=10.0.255.126 ansible_port=12235 ansible_user=tjmt
+fluxo-2g  ansible_host=10.0.255.81 ansible_port=12235 ansible_user=tjmt
+fluxo-hom-1g ansible_host=10.0.255.44 ansible_port=12235 ansible_user=tjmt
+fluxo-hom-2g ansible_host=10.0.255.45 ansible_port=12235 ansible_user=tjmt
+treinamento-1g ansible_host=10.0.16.95 ansible_port=12235 ansible_user=tjmt
+treinamento-2g ansible_host=10.0.16.96 ansible_port=12235 ansible_user=tjmt
 
 #Aplicaçãoes Spring
-dpf-sender ansible_host=10.0.16.10 ansible_port=12235
-interop ansible_host=10.0.16.27 ansible_port=12235
-idp-pje ansible_host=10.0.16.27 ansible_port=12235
-m-dpf-api ansible_host=10.0.17.94 ansible_port=12235
-interop-downloads-pje ansible_host=10.0.17.94 ansible_port=12235
-assinador-a1 ansible_host=10.0.17.94 ansible_port=12235
-portal-midias ansible_host=10.0.16.27 ansible_port=12235
-mni-proteus ansible_host=10.0.16.10 ansible_port=12235
-mni-srp ansible_host=10.0.16.10 ansible_port=12235
+dpf-sender ansible_host=10.0.16.10 ansible_port=12235 ansible_user=tomcat
+interop ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt
+idp-pje ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt
+m-dpf-api ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
+interop-downloads-pje ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
+assinador-a1 ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
+portal-midias ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt
+mni-proteus ansible_host=10.0.16.10 ansible_port=12235 ansible_user=tomcat
+mni-srp ansible_host=10.0.16.10 ansible_port=12235 ansible_user=tomcat
 
 [users]
 user-[1:2]g

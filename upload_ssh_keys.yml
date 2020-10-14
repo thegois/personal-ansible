@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+          # upload ssh key                
+          - authorized_key:
+                  user: tjmt
+                  state: present
+                  manage_dir: yes
+                  key: "{{ lookup('file', '/home/allan/.ssh/id_rsa.pub') }}"
