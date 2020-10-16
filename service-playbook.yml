@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+    - name: Copiar standalone.conf do servidor
+      fetch:
+        src: /opt/jboss-eap-7.1/bin/standalone.conf
+        dest: ~/dev/logs/
+      tags:
+       - copy-standalone
