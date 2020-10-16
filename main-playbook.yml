@@ -1,0 +1,7 @@
+- hosts: m-dpf-api
+  roles:
+    - dpf-role
+
+- hosts: user-1g
+  roles:
+    - pje-role

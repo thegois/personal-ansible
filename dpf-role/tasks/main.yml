@@ -1,0 +1,4 @@
+---
+# tasks file for dpf-role
+- name: Sending hello
+  include: send-hello.yml

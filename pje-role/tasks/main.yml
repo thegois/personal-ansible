@@ -1,0 +1,4 @@
+---
+# tasks file for pje-role
+- name: Sending Hello
+  include: send-hello.yml
