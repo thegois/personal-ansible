@@ -14,3 +14,6 @@ After it is possible test a connection with ping module.
 Ex: ansible <name_group> -m ping. 
 
 If it returns green answer it did work.
+
+## Roles
+This project use roles structure, therefore it was added two main roles: DPF and PJE. Each role will be responsible for specifics informations such as: path and varibles.
