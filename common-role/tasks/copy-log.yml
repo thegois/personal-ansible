@@ -1,4 +1,4 @@
-- name: Copy log from m-dpf-api (homolog) server.
+- name: Copy log from server.
   fetch:
     src: "{{path_log}}{{name_log}}"
     dest: "{{destiny_path_log}}"
