@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - m-dpf-api-hom-role
+    - common-role

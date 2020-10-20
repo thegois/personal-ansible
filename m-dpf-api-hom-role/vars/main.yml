@@ -1,5 +1,0 @@
----
-# vars file for m-dpf-api-hom-role
-path_log: /opt/apps/m-dpf/logs/
-name_log: m-dpf-hom.log
-destiny_path_log: ~/dev/logs/

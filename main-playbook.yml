@@ -1,11 +1,35 @@
 - hosts: m-dpf-api-hom
   roles:
-    - m-dpf-api-hom-role
+    - role: common-role
+      vars:
+        path_log: /opt/apps/m-dpf/logs/
+        name_log: m-dpf-hom.log
+
+- hosts: portal-midias-backend-prod
+  roles:
+    - role: common-role
+      vars:
+        path_log: /opt/apps/portal-midias/log/
+        name_log: portal-midias-prod.log
 
 - hosts: m-dpf-api-prod
   roles:
-    - m-dpf-api-prod-role
+    - role: common-role
+      vars:
+        path_log: /opt/apps/m-dpf/
+        name_log: m-dpf.log
+
+- hosts: interop-consulta-prod
+  roles:
+    - role: common-role
+      vars:
+        path_log: /var/log/interop/
+        name_log: interop-consulta-pje.log
 
 - hosts: todos-pjes
   roles:
-    - todos-pjes-role
+    - role: common-role
+      vars:
+        path_log: /opt/jboss-eap-7.1/standalone/log/
+        name_log: server.log
+

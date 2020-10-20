@@ -40,8 +40,10 @@ m-dpf-api-prod ansible_host=10.0.17.103 ansible_port=12235 ansible_user=tjmt
 interop-downloads-pje ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
 assinador-a1 ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
 portal-midias ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt
+portal-midias-backend-prod ansible_host=10.0.17.95 ansible_port=12235 ansible_user=tjmt
 mni-proteus ansible_host=10.0.16.10 ansible_port=12235 ansible_user=tomcat
 mni-srp ansible_host=10.0.16.10 ansible_port=12235 ansible_user=tomcat
+interop-consulta-prod ansible_host=10.0.150.62 ansible_port=12235 ansible_user=pjev2
 
 [users]
 user-[1:2]g

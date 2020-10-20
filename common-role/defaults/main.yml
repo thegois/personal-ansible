@@ -1,0 +1,5 @@
+---
+# defaults file for common-role
+path_log: Please log path variable!
+name_log: Please log name variable!
+destiny_path_log: ~/dev/logs/
