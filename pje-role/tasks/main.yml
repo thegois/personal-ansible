@@ -1,4 +1,6 @@
 ---
 # tasks file for pje-role
-- name: Sending Hello
-  include: send-hello.yml
+- name: Coping jboss standalone file
+  include: copy-standalone.yml
+  tags:
+    - copy-standalone

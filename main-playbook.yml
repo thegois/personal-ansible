@@ -1,7 +1,11 @@
-- hosts: m-dpf-api
+- hosts: m-dpf-api-hom
   roles:
-    - dpf-role
+    - m-dpf-api-hom-role
 
-- hosts: user-1g
+- hosts: m-dpf-api-prod
   roles:
-    - pje-role
+    - m-dpf-api-prod-role
+
+- hosts: todos-pjes
+  roles:
+    - todos-pjes-role

@@ -1,2 +1,0 @@
-- name: Sending Hello
-  shell: echo 'I am dpf hello!'

@@ -35,7 +35,8 @@ treinamento-2g ansible_host=10.0.16.96 ansible_port=12235 ansible_user=tjmt
 dpf-sender ansible_host=10.0.16.10 ansible_port=12235 ansible_user=tomcat
 interop ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt
 idp-pje ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt
-m-dpf-api ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
+m-dpf-api-hom ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
+m-dpf-api-prod ansible_host=10.0.17.103 ansible_port=12235 ansible_user=tjmt
 interop-downloads-pje ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
 assinador-a1 ansible_host=10.0.17.94 ansible_port=12235 ansible_user=tjmt
 portal-midias ansible_host=10.0.16.27 ansible_port=12235 ansible_user=tjmt

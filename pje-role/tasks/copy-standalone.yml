@@ -1,0 +1,4 @@
+  - name: Coping jboss standalone file from PJE server.
+    fetch:
+      src: /opt/jboss-eap-7.1/bin/standalone.conf
+      dest: ~/dev/logs/

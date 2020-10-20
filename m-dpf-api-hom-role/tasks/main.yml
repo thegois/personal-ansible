@@ -1,0 +1,6 @@
+---
+# tasks file for m-dpf-api-hom-role
+- name: Coping log from m-dpf-api (homolog) server
+  include: copy-log.yml
+  tags:
+    - copy-log
