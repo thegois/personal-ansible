@@ -1,6 +1,0 @@
----
-# tasks file for pje-role
-- name: Coping jboss standalone file
-  include: copy-standalone.yml
-  tags:
-    - copy-standalone
