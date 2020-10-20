@@ -16,7 +16,8 @@ Ex: ansible <name_group> -m ping.
 If it returns green answer it did work.
 
 ## Roles
-This project use roles structure, therefore it was added one main role: common-role. Each role will be responsible for specific informations such as: files, tasks or varibles.
+This project use roles structure, therefore it was added one main role: common-role. Each role will be responsible for specific informations such as: files, tasks or varibles. 
+It was created by ansible-galaxy init <<name_role>>
 
 ## Tasks
 Developed tasks:
