@@ -22,4 +22,4 @@ It was created by ansible-galaxy init <<name_role>>.
 
 ## Tasks
 Developed tasks:
-  copy-log: Easy way to copy files from servers. (common-role)
+  copy-file: Easy way to copy files from servers. (common-role)
