@@ -26,10 +26,10 @@
         path_log: /var/log/interop/
         name_log: interop-consulta-pje.log
 
-- hosts: todos-pjes
+- hosts: all-pjes
   roles:
     - role: common-role
       vars:
         path_log: /opt/jboss-eap-7.1/standalone/log/
         name_log: server.log
-
+    - role: all-pje-role

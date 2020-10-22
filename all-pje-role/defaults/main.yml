@@ -1,2 +1,5 @@
 ---
 # defaults file for all-pje-role
+destiny_path: ~/dev/logs
+path_standalone_conf: /opt/jboss-eap-7.1/bin/standalone.conf
+path_standalone_xml: /opt/jboss-eap-7.1/standalone/configuration/standalone.xml

@@ -1,0 +1,4 @@
+- name: Copy standalone conf file from jboss server.
+  fetch:
+    src: "{{path_standalone_conf}}"
+    dest: "{{destiny_path}}"

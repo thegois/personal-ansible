@@ -1,2 +1,11 @@
 ---
-# tasks file for all-pje-role
+# tasks file for common-role
+- name: Coping conf standalone file from jboss server
+  include: copy-standalone-conf.yml
+  tags:
+    - copy-standalone-conf
+
+- name: Coping xml stadalone file form jboss server
+  include: copy-standalone-xml.yml
+  tags:
+    - copy-standalone-xml
