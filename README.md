@@ -22,4 +22,6 @@ It was created by ansible-galaxy init <<name_role>>.
 
 ## Tasks
 Developed tasks:
-  copy-file: Easy way to copy files from servers. (common-role)
+1 - copy-log: Easy way to copy files from servers. (common-role)
+2 - copy-standalone-xml: Copy standalone.xml from jboss servers (all-pje-role)
+3 - copy-standalone-conf: Copy standaloen.conf from jboss servers (all-pje-role)
